@@ -1,4 +1,4 @@
-package com.example.skinsure.navigation
+package com.example.skinsure.presentation.navigation
 
 import androidx.activity.ComponentActivity
 import androidx.activity.OnBackPressedCallback

@@ -6,11 +6,11 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import com.example.skinsure.navigation.Screen
-import com.example.skinsure.screens.LoginScreen
-import com.example.skinsure.navigation.SkinSureAppRouter
-import com.example.skinsure.screens.SignUpScreen
-import com.example.skinsure.screens.TermsAndConditionsScreen
+import com.example.skinsure.presentation.navigation.Screen
+import com.example.skinsure.presentation.screens.LoginScreen
+import com.example.skinsure.presentation.navigation.SkinSureAppRouter
+import com.example.skinsure.presentation.screens.SignUpScreen
+import com.example.skinsure.presentation.screens.TermsAndConditionsScreen
 
 @Composable
 fun SkinSureApp(){

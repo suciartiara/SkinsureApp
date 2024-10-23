@@ -1,4 +1,4 @@
-package com.example.skinsure.screens
+package com.example.skinsure.presentation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
@@ -18,16 +18,16 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.skinsure.data.LoginViewModel
 import com.example.skinsure.data.UIEvent
 import com.example.skinsure.R
-import com.example.skinsure.components.ButtonComponent
-import com.example.skinsure.components.CheckboxComponent
-import com.example.skinsure.components.ClickableLoginTextComponent
-import com.example.skinsure.components.DividerTextComponent
-import com.example.skinsure.components.HeadingTextComponent
-import com.example.skinsure.components.MyTextFieldComponent
-import com.example.skinsure.components.NormalTextComponent
-import com.example.skinsure.components.PasswordTextFieldComponent
-import com.example.skinsure.navigation.Screen
-import com.example.skinsure.navigation.SkinSureAppRouter
+import com.example.skinsure.presentation.components.ButtonComponent
+import com.example.skinsure.presentation.components.CheckboxComponent
+import com.example.skinsure.presentation.components.ClickableLoginTextComponent
+import com.example.skinsure.presentation.components.DividerTextComponent
+import com.example.skinsure.presentation.components.HeadingTextComponent
+import com.example.skinsure.presentation.components.MyTextFieldComponent
+import com.example.skinsure.presentation.components.NormalTextComponent
+import com.example.skinsure.presentation.components.PasswordTextFieldComponent
+import com.example.skinsure.presentation.navigation.Screen
+import com.example.skinsure.presentation.navigation.SkinSureAppRouter
 
 @Composable
 fun SignUpScreen(loginViewModel: LoginViewModel = viewModel()) {

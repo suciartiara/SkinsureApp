@@ -1,4 +1,4 @@
-package com.example.skinsure.navigation
+package com.example.skinsure.presentation.navigation
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf

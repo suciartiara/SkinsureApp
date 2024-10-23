@@ -1,4 +1,4 @@
-package com.example.skinsure.screens
+package com.example.skinsure.presentation.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,10 +11,10 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.skinsure.R
-import com.example.skinsure.components.HeadingTextComponent
-import com.example.skinsure.navigation.Screen
-import com.example.skinsure.navigation.SkinSureAppRouter
-import com.example.skinsure.navigation.SystemBackButtonHandler
+import com.example.skinsure.presentation.components.HeadingTextComponent
+import com.example.skinsure.presentation.navigation.Screen
+import com.example.skinsure.presentation.navigation.SkinSureAppRouter
+import com.example.skinsure.presentation.navigation.SystemBackButtonHandler
 
 @Composable
 fun TermsAndConditionsScreen() {

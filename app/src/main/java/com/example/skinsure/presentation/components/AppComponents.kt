@@ -1,4 +1,4 @@
-package com.example.skinsure.components
+package com.example.skinsure.presentation.components
 
 import android.util.Log
 import androidx.compose.foundation.background
@@ -275,7 +275,7 @@ fun ButtonComponent(value: String , onButtonClicked : () -> Unit) {
         colors = ButtonDefaults.buttonColors(Color.Transparent),
         shape = RoundedCornerShape(50.dp)
     ) {
-        Box(
+        Box (
             modifier = Modifier
                 .fillMaxWidth()
                 .heightIn(48.dp)
